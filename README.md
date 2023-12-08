@@ -3,7 +3,7 @@
 
 ## Overview
 Some functions are added into AR Depth Lab (https://github.com/googlesamples/arcore-depth-lab) in a personal computer (PC). Then, the improve AR Depth Lab is installed into the smartphone. The depth map can be obtained
-by using patch-based depth estimation and saved into the smartphone.
+by using patch-based depth estimation and saved into the smartphone. The, you can geneate 3D point cloud from the depth map in Generation Scene.
 ## Requirement
 
 ## Usage
