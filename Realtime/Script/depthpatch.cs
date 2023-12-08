@@ -795,7 +795,7 @@ public class depthpatch : MonoBehaviour
                 var lab_model_image = rgb2lab(this.model_image);
                 // source_patchをランダムに決める 
                 System.Random rnd = new System.Random();
-                for (int pnum = 0; pnum < height * width / 100; pnum++)
+                for (int pnum = 0; pnum < height * width / 100; pnum++)//用検討
                 {
                     // モデル画像内でランダムな座標を選択する
                     int y = rnd.Next(0, model_height - patch_height);

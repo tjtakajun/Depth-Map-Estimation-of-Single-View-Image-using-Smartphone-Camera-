@@ -264,7 +264,7 @@ class Inpainter():
         lab_model_image = rgb2lab(self.model_image)
 
        # source_patchをランダムに決める 
-        for pnum in range(int(height * width / 100)):
+        for pnum in range(int(patch_height * patch_width / 5)):
             y = np.random.randint(0, self.model_image.shape[0]-patch_height)
             x = np.random.randint(0, self.model_image.shape[1]-patch_width)
             source_patch = [
