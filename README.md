@@ -4,6 +4,7 @@
 ## Overview
 Some functions are added into AR Depth Lab (https://github.com/googlesamples/arcore-depth-lab) in a personal computer (PC). Then, the improve AR Depth Lab is installed into the smartphone. The depth map can be obtained
 by using patch-based depth estimation and saved into the smartphone.
+(https://ieeexplore.ieee.org/document/10219416)
 ## Requirement
 
 ## Usage
